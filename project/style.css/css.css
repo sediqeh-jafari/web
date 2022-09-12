@@ -1,0 +1,1171 @@
+*,
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.scorol{
+    position: relative;
+}
+.scorol>.scroll-top-link>.up>.fa-angle-up{
+  
+    color: white;
+   position: absolute;
+   /* top: 50%; */
+   /* left: 50%; */
+   padding-left: 10px;
+   padding-top: 5px;
+   
+
+}
+.scorol>.scroll-top-link{
+  
+    background-color:#3e688d;
+    position: fixed;
+    top:85%;
+    left: 95%;
+    border-radius: 2px;
+    height: 50px;
+    width: 50px;
+    z-index: 5;
+ 
+
+}
+/*style of blue menu */
+
+
+#nav{
+    width: 100%;
+    position: fixed;
+    z-index: 5;
+    background-color: #6786a1;
+}
+
+
+#nav1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 160px;
+    padding: 6PX  0;
+    font-family: sans-serif;
+    font-size:small;
+    
+    
+    
+    
+    
+}
+ul,li{
+    text-decoration: none;
+    list-style: none;
+    
+}
+#nav1>.list>ul>li>a{
+    text-decoration: none;
+    color: white;
+}
+#nav1>.list>ul>li>a:hover{
+    text-decoration:underline white
+}
+.list>ul{
+    display: flex;
+}
+.list>ul>li{
+    display:flex
+}
+
+
+.list>ul>li>a>span{
+    border-right: 0.75px solid #9c96b0 ;
+    width: 20%;
+    padding: 0 10px 0 10px;
+
+}
+.phone {
+    color:white;
+}
+
+
+
+
+/*style of white menu */
+
+
+.origin{
+    display: flex;
+    justify-content:center;
+    position: fixed;
+    width: 100%;
+    top: 27px;
+    z-index: 1;
+    background-color:mintcream;
+    vertical-align: baseline; 
+    
+   
+}
+.menu{
+    width:100%;
+    font-family: sans-serif;
+    font-size:14px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    margin: 0 160px;
+    
+}
+
+
+
+
+
+
+
+
+.menu>ul{
+    display: flex;
+}
+
+
+.origin>.menu>.first-list{
+    display: flex;
+    align-items: center;
+    height:50px;
+    align-items: center;
+}
+
+
+.menu>ul>li>a{
+    padding:0 10px ;
+    color: gray;
+    text-decoration: none;
+    transition: 1s;
+ 
+}  
+
+
+/* استایل منوی ابشاری */
+
+.origin>.menu>.first-list>li>.secend-list{
+    background-color: mintcream;
+    padding: 6px 0;
+    position: absolute;
+    right: 5px;
+    display: none;
+    width: 1210px;
+    
+}
+.origin>.menu>.first-list>li>.secend-list>ul>li{
+    padding:10px 100px;
+    width: 300px;
+}
+
+
+
+.origin>.menu>.first-list li:hover >.secend-list{
+    display: flex;
+}
+
+
+
+.fas{
+    color: black;
+}
+
+
+.origin>.menu>.first-list>li>.saf{
+    color: black;
+}
+.menu>ul>li>a:hover{
+    color: black;
+}
+p{
+    color:black ;   
+}
+.first-list span{
+    border-right: 0.75px solid #9c96b0 ;
+    border-left:1px solid  #9c96b0 ;
+    padding:20px 38px;
+    
+
+}
+
+.logo1{
+    width: 196px;
+    height: 60px;
+    z-index: 2;
+}
+.icon>.bin{
+    margin-right:20px ;
+    color: black;
+    width:30px ;
+    height: 30PX;
+}
+.icon>.shop{
+    color:black
+}
+
+/* استایل بک گراند ایمیج header */
+.parent{
+    /* padding-top:100px; */
+    padding-left: 120px;
+    background-image: url(../image/tender-couple-bg-1500x1000.jpg)  ;
+    background-size: cover;
+    width: 100%;
+    height: 727px;
+    position: relative;
+   
+}
+
+
+.parent2>h3, .p{
+    width: 450px;
+    height: 220px;
+    font-family: sans-serif;
+}
+.parent2>h3{
+    font-size: 40px;
+    color: #2c2c2c;
+    flex-direction:row-reverse
+   
+}
+.parent2>.p{
+    text-align: justify;
+    top:150px;
+    color: gray;
+    font-size: 20px;
+    padding-bottom: 300px;
+    
+
+}
+.parent2{
+    position: absolute;
+    top: 300px;
+}
+
+/* BUTTOM */
+
+
+.parent>.parent2>.buttom1{
+    height: 45px;
+    margin: 0 20px 0 0;
+    padding: 10px;
+    background-color: #6786a1;
+    border-style: none;
+    border-radius: 3px;
+    top: 30px;
+    position: absolute;
+    top: 300px
+    
+    
+}
+.parent>.parent2>button a{
+    text-decoration: none;
+}
+
+.parent>.parent2>.buttom2{
+    height: 45px;
+    padding: 10px;
+    border: 2px solid rgb(61, 58, 58);
+    border-radius: 3px;
+    background-color: white;
+    top: 30px;
+    position: absolute;
+    top: 300px;
+    left: 200px
+   
+}
+.parent>.parent2>.buttom1>a{
+    color:white
+   
+}
+.parent>.parent2>.buttom2>a{
+    color:#2c2c2c;
+}
+
+
+/* transform */
+
+
+     
+
+.grid {
+    display: grid; 
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 300px;
+    overflow: hidden;
+    
+}
+
+.img1{
+   background: url(../image/winter-girl-small-495x400.jpg) center center;
+   background-size: cover;
+   transform: scale(1);
+   transition:0.5s ;
+
+}
+.img1:hover{
+    transform: scale(1.1);
+}
+.img1:hover::after{
+    background-color: transparent;
+}
+.img1::after{
+    content: 'NEW WINTER COLLECTION';
+    width: 100%;
+    height: 100%;
+    background-color: #719dc3a1;
+    display: inline-block;
+    transition: 0.5s;
+    text-align: center;
+    line-height: 300px;
+    color: white;
+    font-family: sans-serif;
+    font-size: large;
+
+}
+.img2{
+    background:url(../image/couple-sitting-495x400.jpg) center center;
+    background-size: cover;
+    background-size: cover;
+    transform: scale(1);
+    transition:0.5s ;
+    
+}
+.img2:hover{
+    transform: scale(1.1);
+}
+.img2::after{
+    content: 'LATEST STREET CLOTHES';
+    width: 100%;
+    height: 100%;
+    background-color: #719dc3a1;
+    display: inline-block;
+    transition: 0.5s;
+    text-align: center;
+    line-height: 300px;
+    color: white;
+    font-family: sans-serif;
+    font-size: large;
+}
+.img2:hover::after{
+    background-color: transparent;
+}
+.img3{
+    background: url(../image/girls-shopping-desat-495x400.jpg)center center;
+    background-size: cover;
+    transform: scale(1);
+    transition:0.5s ;
+    
+}
+.img3:hover{
+    transform: scale(1.1);
+}
+.img3::after{
+    content: 'FRESH SPORTSWEAR';
+    width: 100%;
+    height: 100%;
+    background-color: #719dc3a1;
+    display: inline-block;
+    transition: 0.5s;
+    text-align: center;
+    line-height: 300px;
+    color: white;
+    font-family: sans-serif;
+    font-size: large;
+}
+.img3:hover::after{
+    background-color: transparent;
+}
+.img4{
+    background: url(../image/hipster-girls-working-495x400.jpg) center center;
+    background-size: cover;
+    transform: scale(1);
+    transition:0.5s ;
+   
+}
+.img4:hover{
+    transform: scale(1.1);
+}
+.img4::after{
+    content: 'FUNKY ACCECCOIRS';
+    width: 100%;
+    height: 300px;
+    background-color: #719dc3a1;
+    display: inline-block;
+    transition: 0.5s;
+    text-align: center;
+    line-height: 300px;
+    color: white;
+    font-family: sans-serif;
+    font-size: large;
+}
+.img4:hover::after{
+    background-color: transparent;
+}
+
+/* استایل تصویر فروشندگان */
+.grid2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    grid-template-rows: 300px;
+    padding: 80px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: large;
+    position: relative;
+    
+}
+main>.recent{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 30px;
+    padding-top: 40px;
+    
+}
+
+
+.grid2>.imag1{
+    background: url(../image/woman12-450x450.jpg) center center;
+    background-size: cover;
+}
+
+
+.grid2>.imag2{
+    background: url(../image/man2-450x450.jpg) center center;
+    background-size: cover;
+}
+.grid2>.imag3{
+    background: url(../image/man3-450x450.jpg) center center;
+    background-size: cover;
+}
+
+
+.grid2>.imag4{
+    background: url(../image/man4-450x450.jpg) center center;
+    background-size: cover;
+}
+.grid2>.imag4>img{
+    width: 270px;
+    height: 300px;
+}
+.grid2>.imag4>.box4{
+    width: 270px;
+    height: 300px;
+    transform: translate(10%,-0%);
+  }
+.grid2>.imag4>.box4:hover{
+    width: 270px;
+    height: 300px;
+    background: url(../image/man1-450x450.jpg) center center;
+    background-size: cover;
+}
+
+
+/* the prices */
+
+
+
+.grid2>.price{
+    position: relative;
+}
+.grid2>.price1::after{
+    content: '£229.90';
+    position: absolute;
+    top: 50px;
+    left: 50%;
+   transform: translate(-50%,-50%);
+}
+.grid2>.price2::after{
+    content: '£329.90-£349.90';
+    position: absolute;
+    top: 50px;
+    left: 50%;
+   transform: translate(-50%,-50%);
+}
+
+
+.grid2>.price3::before{
+    content: '£229.90';
+    position: absolute;
+    top: 50px;
+    left: 50%;
+   transform: translate(-50%,-50%);
+}
+.price3{
+    position: relative;
+}
+.grid2>.price3::after{
+    content: 'sale!';
+    width: 50px;
+    height: 50px;
+    background-color:#6786a1;
+    display:inline-flex;
+    transform: translate(100%,0);
+    border-radius: 50%;
+    align-items: center;
+    padding-left: 10px;
+    color: white;
+    
+}
+.grid2>.price4::after{
+    content: '£49.90-£159.90';
+    position: absolute;
+    top: 50px;
+    left: 50%;
+   transform: translate(-50%,-50%);
+}
+.price4{
+    position: relative;
+}
+.grid2>.price4:hover{
+    background-image: url(../image/man1-450x450.jpg) center center;
+    background-size:cover;
+}
+
+/* lorem text*/
+.lorem>.aside{
+    background-color: aqua;
+    width: 100%;
+    height: 1000px;
+}
+
+.lorem>.para2{
+    display: grid;
+    grid-template-columns: 15% 15% 15% 70%;
+    grid-gap: 20px;
+    grid-template-rows: 300px 200px 20px 200px 20px ;
+}
+
+.item{
+    text-align: center;
+    position: relative;
+    font-family: sans-serif;
+
+}
+
+
+/* pictures  with cssgrid */
+.item6{
+   grid-template-rows: 20px;
+
+}
+.item7{
+    grid-template-rows: 20px;
+}
+.item8{
+    grid-template-rows: 20px;
+}
+.lorem>.para2>.item1>.ipson{
+    font-size: 30px;
+    font-family: sans-serif;
+    color: #2c2c2c;
+}
+.lorem>.para2>.item1>.small-ipson{
+    font-family: sans-serif;
+    color:rgba(128, 128, 128, 0.612);
+   padding-top: 20px;
+}
+
+.lorem>.para2>.item2{
+    grid-row: 1/  span 3;
+    grid-column-start: 4;
+    background: url(../image/lady-in-blue.jpg) center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height:1000px;
+    width: 700px;
+}
+.item1{
+    grid-column:1/4;
+    padding: 100px 50px 50px 50px;
+    text-align:left;
+    line-height: 30px;
+}
+.item3{
+    background: url(../image/woman12-450x450.jpg) center center;
+    background-size: cover;
+}
+.item4{
+    background: url(../image/man2-450x450.jpg) center center;
+    background-size: cover;
+}
+.item5>img{
+    width: 190px;
+    height: 220px;
+    padding-bottom: 20px;
+    display: inline-block;
+    overflow: hidden;
+    
+}
+.item5{
+    
+    background: url(../image/man3-450x450.jpg) center center;
+    background-size: cover;
+}
+
+.item5>.box3:hover{
+    background: url(../image/man1-450x450.jpg) center center;
+    background-size: cover;
+}
+
+
+
+.item9{
+    background: url(../image/woman2-450x450.jpg) center center;
+    background-size: cover;
+}
+
+.item10{
+    
+    background: url(../image/woman10a-450x450.jpg) center center;
+    background-size: cover; 
+    
+}
+/* .item10>.box10{
+    width: 200px;
+    height: 190px;
+    background: rgba(244, 244, 244, 0);
+    transform: translate(10%,-216px);
+    padding-bottom: 20px;
+    transition: 0.5s;
+
+} */
+.item10>.box10:hover{
+    background: url(../image/woman4-450x450.jpg) center center;
+    background-size: cover;
+}
+
+.item11{
+    background: url(../image/woman5-450x450.jpg) center center;
+    background-size: cover;
+}
+
+
+
+/* the name of pictures */
+
+
+.item3{
+    position: relative;
+}
+
+
+.item3::after{
+    content: ' Velvet';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+   transform: translate(-50%,0);
+   display: inline-block;
+   font-family: sans-serif;
+   font-size: 15px;
+}
+.item4::after{
+    content: 'Jan Grouped ';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+   transform: translate(-50%,0);
+   display: inline-block;
+   font-family: sans-serif;
+   font-size: 15px;
+}
+.item5::after{
+    content: ' Jeans';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+   transform: translate(-50%,0);
+   display: inline-block;
+   font-family: sans-serif;
+   font-size: 15px;
+}
+.item9::after{
+    content: ' BLOUSE';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+   transform: translate(-50%,0);
+   display: inline-block;
+   font-family: sans-serif;
+   font-size: 15px;
+}
+.item10::after{
+    content: 'WHITEtibak';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+   transform: translate(-50%,0);
+   display: inline-block;
+   font-family: sans-serif;
+   font-size: 16px;
+}
+.item11::after{
+    content: 'Anadera';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+   transform: translate(-50%,0);
+   display: inline-block;
+   font-family: sans-serif;
+   font-size: 15px;
+}
+.item6 ,.item7, .item8, .item13 , .item14 , .item12{
+    color: #6786a1;
+}
+.item7::after{
+    content: 'sale!';
+    width: 30px;
+    height: 30px;
+    background-color:#6786a1;
+    display:inline-flex;
+    transform: translate(100%,-50%);
+    border-radius: 50%;
+    align-items: center;
+    padding-left: 7px;
+    color: white;
+    font-size: 12px;
+}
+.item7{
+   display: inline-block;
+   padding-left:9px;
+}
+.item12{
+    width: 200px;
+}
+.item16 , .item17, .item18{
+    width: 200px;
+    height: 170px;
+   
+}
+
+/* icons-information*/
+
+
+.icontext>.child{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+    padding: 50px 150px;
+    position: relative;
+    font-family: sans-serif;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.271),rgba(0, 0, 0, 0.195)),;
+}
+
+.icontext>.child>.childof1{
+    display: flex;
+}
+
+.icontext>.child>.childof1>#text1{
+    padding-left: 30PX;
+    
+}
+.icontext>.child>.childof1>img{
+    width:30px;
+    height: 30px;
+  
+}
+.icontext>.child>.childof1>#text1::after{
+    content: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.';
+    display: inline-block;
+    color: gray;
+    padding-top : 10px;
+   
+}
+
+
+
+
+.icontext>.child>.childof2{
+    display: flex;
+}
+
+.icontext>.child>.childof2>#text2{
+    padding-left: 30PX;
+}
+
+.icontext>.child>.childof2>img{
+    width:30px;
+    height: 30px;
+}
+.icontext>.child>.childof2>#text2::after{
+    content: 'Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.';
+    display: inline-block;
+    color: gray;
+    padding-top : 10px;
+}
+
+
+
+.icontext>.child>.childof3{
+    display: flex;
+}
+
+.icontext>.child>.childof3>#text3{
+    padding-left: 30PX;
+}
+
+.icontext>.child>.childof3>img{
+    width:30px;
+    height: 30px;
+}
+.icontext>.child>.childof3>#text3::after{
+    content: 'Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.';
+    display: inline-block;
+    color: gray;
+    padding-top : 10px;
+}
+
+
+
+.icontext>.child>.childof4{
+    display: flex;
+}
+
+
+.icontext>.child>.childof4>#text4{
+    padding-left: 30PX;
+}
+.icontext>.child>.childof4>img{
+    width:30px;
+    height: 30px;
+}
+.icontext>.child>.childof4>#text4::after{
+    content: 'Enean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus.';
+    display: inline-block;
+    color: gray;
+    padding-top : 10px;
+}  
+
+
+/* دایره ها*/
+
+/*  */
+
+
+
+/* footer */
+footer{
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    background-color:#6786a1;
+    position: relative;
+    background-image: url(../image/hipster-girls-working.jpg) ;
+    
+}
+
+
+#name, #e-mail, button{
+    width: 183px;
+    height: 47px;
+    background-color: #285b8892;
+    border: 1px solid white   ;
+    color: white;
+}
+footer>.footer>.box>input{
+    color: white;
+    font-size: 16px;
+    overflow: hidden;
+}
+footer>.footer{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 20px;
+}
+.div{
+    font-size: 30px;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    align-items: center;
+  
+}
+.box{
+    padding-left: 70px;
+    padding-top:10px ;
+    color: #6786a1;
+}
+
+/* data */
+footer>.information{
+    display: flex;
+    justify-content:center ;
+    background-color: #6786a1;
+    
+    width: 100%;
+    height: 300px;
+    padding-top: 50px;
+    position: absolute;
+    top:230px;
+    font-family: sans-serif;
+
+   
+}
+
+footer>.information>.data{
+    margin: 10px;
+    text-align: center;
+    padding: 0 50px;
+    color:rgb(39, 88, 128);
+
+}
+
+.data1::after{
+    content: 'Mo-Fr:8:00_19:00 Sa:8:00-14:00 so:closed';
+    width: 150px;
+    height: 100px;
+    line-height: 26px;
+    position: absolute;
+    top:90px;
+    transform: translate(-100%);
+    padding-right:50px ;
+    text-align: justify;
+    color: white;
+   
+}
+
+.data2::after{
+    content: 'ShoppingMallRodeo DriveLosAngeles,USAoffice-flagship@enfold-shop.com 555-8653364  ';
+    width: 190px;
+    height: 200px;
+    line-height: 26px;
+    position: absolute;
+    top:90px;
+    transform: translate(-85%);
+    padding-right:50px ;
+    text-align: justify;
+    color: white;
+
+   
+   
+}
+
+.data3::after{
+    content: '8500BeverlyBoulevard-LosAngeles,USAoffice-bb@enfold-shop.com 555-3477 948';
+    width: 190px;
+    height: 200px;
+    text-align: justify;
+    position: absolute;
+    top:90px;
+    transform: translate(-75%);
+    padding-right:50px ;
+    line-height: 26px;
+    color: white;
+  
+   
+   
+}
+
+.data4::after{
+    content: 'Robertson Boulevard Los Angeles, USAoffice-rb@enfold-shop.com555-4457 223';
+    width: 180px;
+    height: 200px;
+    text-align: justify;
+    position: absolute;
+    top:90px;
+    transform: translate(-90%);
+    padding-right:50px ;
+    line-height: 26px;
+    color: white;
+   
+}
+
+
+.link{
+    width: 100%;
+    height: 50px;
+    background-color:#3a4d5c;
+    position: absolute;
+    top:500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 150px;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+.link>ul>li>a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+.link>ul{
+    display: flex;
+}
+.link>.copy{
+    padding: 20px;
+    color: white;
+}
+.link>.copy>a{
+    text-decoration: none;
+    color: white;
+}
+.link>.copy>a:hover{
+    text-decoration: underline;
+}
+
+
+.link>ul>li>a:hover{
+    text-decoration: underline;
+}
+
+
+/* the end */
+@media (max-width: 768px) {
+    #nav1{
+        margin: 0 0;
+    }
+    .parent{
+        background: url(../image/tender-couple-bg-1500x1000.jpg) center center ;
+        background-size: cover;
+        padding-left:20px;
+    }
+    
+    .grid {
+        display: grid; 
+        grid-template-columns:500px;
+        grid-template-rows: 400px;
+        overflow: hidden;
+        margin: 0 100px;
+        
+    }
+    .grid2 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 50px;
+        grid-template-rows: 300px;
+        padding: 80px;
+        text-align: center;
+        font-family: sans-serif;
+        font-size: large;
+        
+    }
+    .grid2>.imag4>img{
+        width: 270px;
+       
+        overflow: hidden;
+    }
+    .grid2>.imag1:after{
+        content: '£329.90-£349.90';
+        position: absolute;
+        top:390px;
+        transform: translate(-40%,0);
+        display: inline-block;
+    }
+    .grid2>.imag2::after{
+        content: 'GROUPED';
+        position: absolute;
+        top:390px;
+        transform: translate(-40%,0);
+        display: inline-block;
+    }
+    .price1, .price2{
+        display: none;
+    }
+    .lorem>.para2{
+        display: grid;
+        grid-template-columns:200px 200px;
+        grid-gap: 20px;
+        grid-template-rows: 300px 200px 20px 200px 20px ;
+    }
+    .lorem>.para2>.item2{
+        grid-row: 1/  span 3;
+        grid-column-start: 1/3;
+        background: url(../image/lady-in-blue.jpg) center center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        height:1000px;
+        width: 700px;
+        float: left;
+        display: none;
+    }
+    .lorem>.para2>.item15{
+   
+    background: url(../image/lady-in-blue.jpg) center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height:1000px;
+    width: 600px;
+    }
+    
+    .scorol{
+        display: none;
+    }
+     .item17,.item18,.item19{
+        display: none;
+    }
+    .icontext>.child{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 50px;
+        padding: 30px 50px 100px 50px;
+        position: relative;
+        font-family: sans-serif;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.271),rgba(0, 0, 0, 0.195)),;
+    }
+    footer{
+        background-size: contain;
+        width: 100%;
+        height: 500px;
+        background-color:#6786a1;
+        position: relative;
+        background: url(../image/hipster-girls-working.jpg) center center ;
+        /* filter: brightness( 0.5) */
+        
+    }
+    footer>.footer{
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        width: 600px;
+        height: 200px;
+        font-size: 16px;
+       
+    }
+    .box{
+        padding-left: 0px;
+        padding-top:10px ;
+        color: #6786a1;
+        display: inline;
+    }
+    footer>.information{
+        display:block ;
+        justify-content:center ;
+        background-color: #6786a1;
+        
+        width: 100%;
+        height: 600px;
+        padding-top: 50px;
+        position: absolute;
+        top:230px;
+        font-family: sans-serif;
+    
+       
+    }
+    .fa-angle-right {
+        display: none;
+    }
+    .fa-angle-left{
+        display: none;
+    }
+    footer>.information>.data{
+    margin: 10px;
+    text-align:left;
+    padding: 50px 20px;
+    color:rgb(39, 88, 128);
+
+    }
+    .origin{
+        display: none;
+    }
+}
